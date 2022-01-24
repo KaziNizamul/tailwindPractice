@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="src/index.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="text-gray-600 font-serif">
+    <div>
+      <div>
+        <nav>
+          <div>
+            <h1>
+              <a class="text-2xl" href="/">Food Ninja</a>
+            </h1>
+          </div>
+          <ul>
+            <li class="text-gray-600">
+              <a href="#">
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>About</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <main class="px-16 py-6">
+        <div class="flex justify-center md:justify-end">
+          <a class="text-red-400" href="#">Log in</a>
+          <a class="text-red-400 ml-4" href="#">Sign up</a>
+        </div>
+
+        <header>
+          <h2 class="text-6xl text-gray-600">Recipes</h2>
+          <h3>For Ninjas</h3>
+        </header>
+
+        <div>
+          <h4
+            class="font-semibold uppercase mt-12 mb-2 hover:px-4 border-4 border-red-400 hover:border-l-8"
+          >
+            Latest Recipes
+          </h4>
+
+          <div>
+            <!-- cards go here -->
+            <div class="card-container">
+              <img
+                src="public/img/stew.jpg"
+                alt="stew"
+                class="h-32 md:h-48 w-full object-cover"
+              />
+              <div class="m-4">
+                <span>5 Bean Chili Stew</span>
+                <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+              </div>
+              <div
+                class="absolute top-0 right-0 mr-2 mt-2 rounded-full font-bold uppercase text-sm text-white p-1 bg-red-500"
+              >
+                <span> 25mins </span>
+              </div>
+            </div>
+          </div>
+
+          <h4 class="font-semibold uppercase mt-12 mb-2 border-l-8 px-4">
+            Most Popular
+          </h4>
+
+          <div>
+            <!-- cards go here -->
+          </div>
+        </div>
+
+        <div>
+          <div>Load more</div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

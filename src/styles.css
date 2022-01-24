@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card-container {
+    @apply relative rounded bg-white shadow-xl border-gray-200 overflow-hidden;
+  }
+}
