@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+
+
+
+.card-container {
+  @apply relative rounded bg-white shadow-xl border-gray-200 overflow-hidden;
+}
+
+.body-container{
+  @apply text-gray-600 font-serif;
+}
+
+
+@tailwind utilities;
