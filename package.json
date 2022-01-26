@@ -4,12 +4,12 @@
 	"description": "JavaScript example starter project",
 	"main": "index.html",
 	"scripts": {
-		"start": "parcel index.html --open",
-		"build": "parcel build index.html",
-		"start-vite": "vite"
+		"build": "vite build",
+		"preview": "vite preview",
+		"start": "vite"
 	},
 	"dependencies": {
-		"parcel-bundler": "^1.6.1"
+		"vite": "2.7.13"
 	},
 	"devDependencies": {
 		"@babel/core": "7.2.0",
