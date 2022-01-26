@@ -1,3 +1,3 @@
 # tailwindPractice
-A Static Food Ordering Website
+A Static Food Ordering Website,
 styled with TailwindCSS. 
